@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+}
+.header {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+}
+.content {
+    display: flex;
+    background-color: lightgray;  
+    flex-flow: wrap;
+    justify-content: center;
+    
+}
+.content > div {
+	width: 50%;
+    background-color: #f1f1f1;
+    margin: 20px;    
+    font-size: 30px;
+  
+}
